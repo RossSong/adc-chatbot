@@ -9,11 +9,13 @@ Style Transfer Model for Korean Language
 ## 실행방법
 
 * Train 데이터로 Vocabulary 파일 만들기
+
 ```sh
 python make_vocab.py < train.txt > vocab.txt
 ```
 
 * 환경변수 정의
+
 데이터폴더, 모델폴더, 학습 파라미터 등 환경변수를 정의한다. (정확한 경로는 본인 작업환경에 맞게 수정필요)
 
 ```sh
@@ -23,7 +25,8 @@ export MODEL_DIR=$PRJ_DIR/models/char_baseline_dropout0.2
 export HPARAM_DIR=$PRJ_DIR/hparams
 ```
 
-* 모델학습
+* 모델 학습
+
 모델 학습에 필요한 train, dev, test 및 vocab 파일을 준비해야 함. (파일명 prefix는 같게하고 확장자로 source, target 구분!)
 ```sh
 python -m nmt.nmt \
@@ -38,6 +41,7 @@ python -m nmt.nmt \
 ```
 
 * Inference
+
 ```sh
 python -m nmt.nmt \
 --out_dir=$MODEL_DIR \

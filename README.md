@@ -49,7 +49,7 @@ python -m nmt.nmt \
 --inference_output_file=/tmp/dev.last_chars.tgt
 ```
 
-* 실험결과 (마지막 어절만 사용, 음절 단위 Sequence)
+## 실험결과 (마지막 어절만 사용, 음절 단위 Sequence)
 
 Train Data | Dev Data | Test Data | HParams
 ---:| ---:| ---:| --- |

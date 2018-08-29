@@ -1,0 +1,63 @@
+python make_vocab.py < train.txt > vocab.txt
+
+cd ~/sources/nmt-iwslt18
+
+# last word chars level
+
+export PRJ_DIR=/home/hkh/sources/adc-chatbot
+export DATA_DIR=$PRJ_DIR/data/chars
+export MODEL_DIR=$PRJ_DIR/models/char_baseline_dropout0.2
+export HPARAM_DIR=$PRJ_DIR/hparams
+
+python -m nmt.nmt \
+--src=src \
+--tgt=tgt \
+--vocab_prefix=$DATA_DIR/chars_vocab \
+--train_prefix=$DATA_DIR/train.last_chars \
+--dev_prefix=$DATA_DIR/dev.last_chars \
+--test_prefix=$DATA_DIR/test.last_chars \
+--out_dir=$MODEL_DIR \
+--hparams_path=$HPARAM_DIR/chars_baseline.json
+
+## inference
+
+python -m nmt.nmt \
+--out_dir=$MODEL_DIR \
+--inference_input_file=$DATA_DIR/dev.last_chars.src \
+--inference_output_file=/tmp/dev.last_chars.tgt
+
+
+# last morph chars level
+
+export PRJ_DIR=/home/hkh/sources/adc-chatbot
+export DATA_DIR=$PRJ_DIR/data/morphs
+export MODEL_DIR=$PRJ_DIR/models/morph_chars
+export HPARAM_DIR=$PRJ_DIR/hparams
+
+python -m nmt.nmt \
+--src=src \
+--tgt=tgt \
+--vocab_prefix=$DATA_DIR/morph_chars_vocab \
+--train_prefix=$DATA_DIR/train.morph_chars \
+--dev_prefix=$DATA_DIR/dev.morph_chars \
+--test_prefix=$DATA_DIR/test.morph_chars \
+--out_dir=$MODEL_DIR \
+--hparams_path=$HPARAM_DIR/morph_chars.json
+
+
+# last word chars level (reverse model)
+
+export PRJ_DIR=/home/hkh/sources/adc-chatbot
+export DATA_DIR=$PRJ_DIR/data/chars
+export MODEL_DIR=$PRJ_DIR/models/reverse_char_baseline
+export HPARAM_DIR=$PRJ_DIR/hparams
+
+python -m nmt.nmt \
+--src=tgt \
+--tgt=src \
+--vocab_prefix=$DATA_DIR/chars_vocab \
+--train_prefix=$DATA_DIR/train.last_chars \
+--dev_prefix=$DATA_DIR/dev.last_chars \
+--test_prefix=$DATA_DIR/test.last_chars \
+--out_dir=$MODEL_DIR \
+--hparams_path=$HPARAM_DIR/reverse_chars_baseline.json

@@ -3,6 +3,7 @@ Style Transfer Model for Korean Language
 
 ## Introduction
 챗봇 대화시스템 발화의 어체를 변환하는 Attention Encoder-Decoder 모델이다.
+
 소스 코드는 [구글 NMT 모델](https://github.com/tensorflow/nmt)을 기반으로 한다.
 
 ## 실행방법

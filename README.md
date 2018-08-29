@@ -43,3 +43,15 @@ python -m nmt.nmt \
 --inference_input_file=$DATA_DIR/dev.last_chars.src \
 --inference_output_file=/tmp/dev.last_chars.tgt
 ```
+
+* 실험결과 (마지막 어절만 사용, 음절 단위 Sequence)
+
+Train Data | Dev Data | Test Data | HParams
+---:| ---:| ---:| --- |
+1740 | 100 | 100 | chars_baseline
+
+Eval Data | BLEU | Accuracy
+:---:| ---:| ---:|
+Train (Close) | 96.80 | 94.50
+Dev | 89.62 | 83.00
+Test | 88.68 | 86.00

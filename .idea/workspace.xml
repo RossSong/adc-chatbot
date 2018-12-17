@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f07603a-2eec-4c4a-8678-36386d3e5a55" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/adc_chatbot$make_ban_char_level.coverage" NAME="make_ban_char_level Coverage Results" MODIFIED="1539655907387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../adc-style-transfer" />
+    <SUITE FILE_PATH="coverage/adc_chatbot$test_backtrans__1_.coverage" NAME="test_backtrans (1) Coverage Results" MODIFIED="1540388475615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdemo" />
+    <SUITE FILE_PATH="coverage/adc_chatbot$test_backtrans.coverage" NAME="test_backtrans Coverage Results" MODIFIED="1539692702158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdemo/webdemo" />
+    <SUITE FILE_PATH="coverage/adc_chatbot$make_ban_char_level__1_.coverage" NAME="make_ban_char_level (1) Coverage Results" MODIFIED="1542093854391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adc_chatbot$test_style_transfer.coverage" NAME="test_style_transfer Coverage Results" MODIFIED="1540388125175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdemo" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="commands.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/commands.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keti_yo_words.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/raw/keti_yo_words.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keti_sho_words.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/raw/keti_sho_words.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="27" column="22" lean-forward="true" selection-end-line="1254" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keti_ban_words.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/raw/keti_ban_words.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="349" column="21" lean-forward="true" selection-end-line="1254" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analyzer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webdemo/webdemo/analyzer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-951">
+              <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+              <folding>
+                <element signature="e#23#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webdemo/webdemo/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webdemo/webdemo/string_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webdemo/webdemo/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#365#371#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webdemo/webdemo/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="13" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&gt;</find>
+      <find>괴장</find>
+      <find>괴 장</find>
+      <find>괴 장</find>
+      <find>괴굉</find>
+      <find>괴</find>
+      <find>굉</find>
+      <find>create_in</find>
+      <find>create_infer_model</find>
+      <find>created</find>
+      <find>created %s model</find>
+      <find>steps_per_stats</find>
+      <find>create_or_load_model</find>
+      <find>process</find>
+      <find>thread</find>
+      <find>workers</find>
+      <find>infer_mode</find>
+      <find>inference_input_file</find>
+      <find>--inference</find>
+      <find>split_sentences</find>
+      <find>yo_sho_hparams</find>
+      <find>SPACE_SYMBOL</find>
+      <find>sentence</find>
+      <find>내</find>
+      <find>내 가</find>
+      <find>먹</find>
+      <find>나</find>
+      <find>응</find>
+      <find>내가</find>
+      <find>네,</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>십시오</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../adc-style-transfer/webdemo/webdemo/forms.py" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/webdemo/webdemo/templates/home.html" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/nmt/inference.py" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/webdemo/webdemo/nmt/inference.py" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/webdemo/webdemo/analyzer.py" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/data/chars/train.last_chars.src" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/docs/commands.txt" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/webdemo/webdemo/urls.py" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/webdemo/webdemo/wsgi.py" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/webdemo/webdemo/views.py" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/webdemo/webdemo/settings.py" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/webdemo/webdemo/templates/base.html" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/make_char_level.py" />
+        <option value="$PROJECT_DIR$/../adc-style-transfer/make_ban_char_level.py" />
+        <option value="$PROJECT_DIR$/hparams/chars_sho_yo.json" />
+        <option value="$PROJECT_DIR$/data/chars/dev.chars.yo" />
+        <option value="$PROJECT_DIR$/data/chars/dev.chars.sho" />
+        <option value="$PROJECT_DIR$/prepare_data.sh" />
+        <option value="$USER_HOME$/.PyCharm2018.1/system/remote_sources/1470804281/-1635689944/koalanlp/api/initialize.py" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/test_backtrans.py" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/static/templates/base.html" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/static/static_server/static_server/templates/base.html" />
+        <option value="$PROJECT_DIR$/data/chars/train.chars.ban" />
+        <option value="$PROJECT_DIR$/data/chars/train.chars.sho" />
+        <option value="$PROJECT_DIR$/data/chars/train.chars.yo" />
+        <option value="$PROJECT_DIR$/hparams/chars_yo_sho.json" />
+        <option value="$PROJECT_DIR$/webdemo/test_style_transfer.py" />
+        <option value="$PROJECT_DIR$/webdemo/test_backtrans.py" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/settings.py" />
+        <option value="$PROJECT_DIR$/data/raw/keti_yo_words.txt" />
+        <option value="$PROJECT_DIR$/make_ban_char_level.py" />
+        <option value="$PROJECT_DIR$/hparams/chars_yo_sho.close.json" />
+        <option value="$PROJECT_DIR$/hparams/chars_sho_yo.close.json" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/analyzer_test.py" />
+        <option value="$PROJECT_DIR$/data/raw/keti_sho_words.txt" />
+        <option value="$PROJECT_DIR$/make_vocab_all.sh" />
+        <option value="$PROJECT_DIR$/hparams/chars_yo_ban.close.json" />
+        <option value="$PROJECT_DIR$/docs/commands.txt" />
+        <option value="$PROJECT_DIR$/data/raw/half_keti_ban_words.txt" />
+        <option value="$PROJECT_DIR$/data/raw/keti_ban_words.txt" />
+        <option value="$PROJECT_DIR$/data/chars/train_close.chars.ban" />
+        <option value="$PROJECT_DIR$/data/chars/dev.chars.ban" />
+        <option value="$PROJECT_DIR$/data/chars/chars_close.vocab.ban" />
+        <option value="$PROJECT_DIR$/nmt/utils/misc_utils.py" />
+        <option value="$PROJECT_DIR$/hparams/chars.close.json" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/templates/base.html" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/templates/home.html" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/forms.py" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/string_utils.py" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/analyzer.py" />
+        <option value="$PROJECT_DIR$/webdemo/webdemo/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="chars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="raw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="hparams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="nmt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="webdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="webdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="webdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="webdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="webdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adc-chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adc-chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="webdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="webdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sources\adc-chatbot\webdemo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sources\adc-chatbot\webdemo\webdemo\static\css" />
+      <recent name="D:\sources\adc-chatbot\webdemo\webdemo\static\js" />
+      <recent name="D:\sources\adc-chatbot" />
+      <recent name="D:\sources\adc-chatbot\hparams" />
+      <recent name="D:\sources\adc-chatbot\data\raw" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.make_ban_char_level (1)">
+    <configuration name="make_ban_char_level (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adc-chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_ban_char_level.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="make_ban_char_level" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adc-chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../adc-style-transfer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../adc-style-transfer/make_ban_char_level.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_backtrans (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adc-chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webdemo/test_backtrans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_backtrans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adc-chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdemo/webdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\sources\adc-chatbot\webdemo\test_backtrans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_style_transfer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adc-chatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webdemo/test_style_transfer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.make_ban_char_level" />
+      <item itemvalue="Python.make_ban_char_level (1)" />
+      <item itemvalue="Python.test_backtrans" />
+      <item itemvalue="Python.test_backtrans (1)" />
+      <item itemvalue="Python.test_style_transfer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.make_ban_char_level (1)" />
+        <item itemvalue="Python.test_backtrans (1)" />
+        <item itemvalue="Python.test_style_transfer" />
+        <item itemvalue="Python.test_backtrans" />
+        <item itemvalue="Python.make_ban_char_level" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f07603a-2eec-4c4a-8678-36386d3e5a55" name="Default" comment="" />
+      <created>1535617701562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535617701562</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32987553" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40560165" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.14994487" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14994487" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3299866" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937758" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="label_sho_sent" language="Python" />
+        <watch expression="label_yo_sent" language="Python" />
+        <watch expression="trans_sent" language="Python" />
+        <watch expression="backtrans_sent" language="Python" />
+        <watch expression="yo_sents" language="Python" />
+        <watch expression="trans_sents[300:]" language="Python" />
+        <watch expression="len(chars_list)" language="Python" />
+        <watch expression="chars_list[-1]" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>chars_list[-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(chars_list)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>trans_sents[300:]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>yo_sents</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>backtrans_sent</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>trans_sent</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>label_yo_sent</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>label_sho_sent</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/chars/test.chars.yo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1470" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/pred.train.chars.sho" />
+    <entry file="file://$PROJECT_DIR$/data/chars/train.close.chars.ban" />
+    <entry file="file://$PROJECT_DIR$/data/chars/dev.chars.yo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-710">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/train.chars.sho">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="1054" lean-forward="true" selection-start-line="1054" selection-end-line="1054" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make_vocab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hparams/chars_sho_yo.close.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/train_close.chars.sho">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/raw/half_keti_sho_words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/train.chars.yo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make_ban_char_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/medical_sho_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="1933" column="24" lean-forward="true" selection-start-line="1933" selection-start-column="24" selection-end-line="1933" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/analyzer_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2964">
+          <caret line="156" column="63" lean-forward="true" selection-start-line="156" selection-start-column="63" selection-end-line="156" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make_vocab_all.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hparams/chars_yo_sho.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hparams/chars_yo_ban.close.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/raw/half_keti_ban_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="99" column="2" lean-forward="true" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/test.chars.ban">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/dev.chars.ban">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/chars_close.vocab.ban">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="575" column="1" selection-start-line="575" selection-start-column="1" selection-end-line="575" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/chars.vocab.ban">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/chars.vocab.yo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/chars_close.vocab.sho">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/chars_close.vocab.yo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="587" lean-forward="true" selection-start-line="587" selection-end-line="587" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/static/js/sg-common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmt/model_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="576" column="29" lean-forward="true" selection-start-line="576" selection-start-column="29" selection-end-line="576" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmt/utils/misc_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="138" column="31" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmt/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="356" column="40" selection-start-line="356" selection-start-column="30" selection-end-line="356" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmt/nmt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="543" column="9" lean-forward="true" selection-start-line="543" selection-start-column="9" selection-end-line="543" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hparams/chars.close.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/nmt/model_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="824">
+          <caret line="563" column="24" selection-start-line="563" selection-start-column="4" selection-end-line="563" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/train.chars.ban">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19048">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/train_close.chars.yo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23019" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/medical_yo_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34096">
+          <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/static/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/static/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#365#371#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/remote_sources/1470804281/-1635689944/pyrouge/Rouge155.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/string_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chars/train_close.chars.ban">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="408" selection-start-line="408" selection-end-line="408" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/commands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/raw/half_keti_yo_words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/raw/keti_sho_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="22" lean-forward="true" selection-end-line="1254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/raw/keti_ban_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="349" column="21" lean-forward="true" selection-end-line="1254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/raw/keti_yo_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-951">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="e#23#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo/webdemo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

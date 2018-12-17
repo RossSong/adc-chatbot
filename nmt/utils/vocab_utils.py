@@ -109,9 +109,15 @@ def load_embed_txt(embed_file):
             tokens = line.strip().split(" ")
             word = tokens[0]
             vec = list(map(float, tokens[1:]))
-            emb_dict[word] = vec
             if emb_size:
-                assert emb_size == len(vec), "All embedding size should be same."
+                pass
+                # print(emb_size, len(vec))
+                # assert emb_size == len(vec), "All embedding size should be same."
             else:
                 emb_size = len(vec)
+
+            if emb_size != len(vec):
+                print("Unexpected embedding size (%d) for word (%s): " % (word, len(vec)))
+            else:
+                emb_dict[word] = vec
     return emb_dict, emb_size

@@ -54,7 +54,7 @@ class IteratorUtilsTest(tf.test.TestCase):
         random_seed=hparams.random_seed,
         num_buckets=hparams.num_buckets,
         src_max_len=src_max_len,
-        reshuffle_each_iteration=False)
+        reshuffle_each_iteration=True)
     table_initializer = tf.tables_initializer()
     source = iterator.source
     target_input = iterator.target_input
@@ -134,7 +134,7 @@ class IteratorUtilsTest(tf.test.TestCase):
         src_max_len=src_max_len,
         num_shards=2,
         shard_index=1,
-        reshuffle_each_iteration=False)
+        reshuffle_each_iteration=True)
     table_initializer = tf.tables_initializer()
     source = iterator.source
     target_input = iterator.target_input
@@ -199,7 +199,7 @@ class IteratorUtilsTest(tf.test.TestCase):
         num_buckets=hparams.num_buckets,
         src_max_len=src_max_len,
         skip_count=skip_count,
-        reshuffle_each_iteration=False)
+        reshuffle_each_iteration=True)
     table_initializer = tf.tables_initializer()
     source = iterator.source
     target_input = iterator.target_input

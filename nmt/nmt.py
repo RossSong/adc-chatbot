@@ -252,7 +252,7 @@ def add_arguments(parser):
     parser.add_argument("--infer_batch_size", type=int, default=32,
                         help="Batch size for inference mode.")
     parser.add_argument("--inference_output_file", type=str, default=None,
-                        help="Output file to store decoding results.")
+                        help="Output file to store decoding seq2seq_results.")
     parser.add_argument("--inference_ref_file", type=str, default=None,
                         help=("""\
       Reference file to compute evaluation scores (if provided).\
@@ -453,6 +453,7 @@ def extend_hparams(hparams):
             sos=hparams.sos,
             eos=hparams.eos,
             unk=vocab_utils.UNK)
+
     hparams.add_hparam("src_vocab_size", src_vocab_size)
     hparams.add_hparam("tgt_vocab_size", tgt_vocab_size)
     hparams.add_hparam("src_vocab_file", src_vocab_file)

@@ -246,14 +246,14 @@ def _create_pretrained_emb_from_txt(
             emb_dict[token] = [0.0] * emb_size
 
     emb_mat = np.array(
-        [emb_dict[token] for token in vocab], dtype=dtype.as_numpy_dtype())
-    emb_mat = tf.constant(emb_mat)
-    emb_mat_const = tf.slice(emb_mat, [num_trainable_tokens, 0], [-1, -1])
+        [emb_dict[token] if token in emb_dict else [0.0] * emb_size for token in vocab], dtype=dtype.as_numpy_dtype())
+    emb_mat = tf.Variable(emb_mat)
+    emb_mat_words = tf.slice(emb_mat, [num_trainable_tokens, 0], [-1, -1])
     with tf.variable_scope(scope or "pretrain_embeddings", dtype=dtype) as scope:
         with tf.device(_get_embed_device(num_trainable_tokens)):
             emb_mat_var = tf.get_variable(
                 "emb_mat_var", [num_trainable_tokens, emb_size])
-    return tf.concat([emb_mat_var, emb_mat_const], 0)
+    return tf.concat([emb_mat_var, emb_mat_words], 0)
 
 
 def _create_or_load_embed(embed_name, vocab_file, embed_file,

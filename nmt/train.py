@@ -466,7 +466,7 @@ def train(hparams, scope=None, target_session=""):
 
 
 def _format_results(name, ppl, scores, metrics):
-    """Format results."""
+    """Format seq2seq_results."""
     result_str = ""
     if ppl:
         result_str = "%s ppl %.2f" % (name, ppl)
@@ -480,7 +480,7 @@ def _format_results(name, ppl, scores, metrics):
 
 
 def _get_best_results(hparams):
-    """Summary of the current best results."""
+    """Summary of the current best seq2seq_results."""
     tokens = []
     for metric in hparams.metrics:
         tokens.append("%s %.2f" % (metric, getattr(hparams, "best_" + metric)))
